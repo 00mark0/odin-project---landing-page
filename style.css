@@ -1,0 +1,53 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* HEADER */
+
+.header-container {
+    background-color: #1f2937;
+}
+
+/* End of header */
+
+/* MAIN */
+
+/* Section: Social Proof */
+
+
+
+/* End of section */
+
+/* Section: Testimonial */
+
+
+
+/* End of section */
+
+/* Section: How It Works */
+
+
+
+/* End of section */
+
+/* Section: Call to Action */
+
+
+
+/* End of section */
+
+/* End of MAIN */
+
+/* FOOTER */
+
+
+
+/* End of footer */
