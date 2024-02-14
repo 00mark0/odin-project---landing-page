@@ -92,8 +92,15 @@ body {
     margin: 0 auto;
 }
 
+.hero-img figure {
+    border-radius: 3px;
+    border: 10px solid black 0.5;
+    box-shadow: 0 0 20px 20px rgba(0, 0, 0, 0.5);
+}
+
 .hero-img figcaption {
     margin-top: 10px;
+    text-align: center;
 }
 
 .hero-container h1 {
