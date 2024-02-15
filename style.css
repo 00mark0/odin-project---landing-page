@@ -246,7 +246,6 @@ body {
 #how-it-works {
     text-align: center;
     color: var(--text-color1);
-    height: 80vh;
     background: linear-gradient(to bottom, #1e5799 50%, #ffffff 50%);
 }
 
@@ -313,7 +312,59 @@ body {
 
 /* Section: Call to Action */
 
+.cta-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--background-color2);
+    color: var(--text-color2);
+    padding: 100px;
+}
 
+.cta-container {
+    background-color: var(--background-color3);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 200px;
+    padding: 50px 100px;
+    border-radius: 10px;
+}
+
+.cta-text {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    flex: 1;
+}
+
+.cta-text h1 {
+    font-size: 24px;
+}
+
+.cta-text p {
+    font-size: 18px;
+}
+
+.cta-button {
+    display: flex;
+    margin-top: 20px;
+}
+
+.cta-button a {
+    border: 1px solid white;
+    padding: 10px 30px;
+    border-radius: 8px;
+    text-align: center;
+    transition: 0.2s ease-in-out;
+    text-decoration: none;
+}
+
+.cta-button a:hover {
+    background-color: #4d8bf9;
+}
 
 /* End of section */
 
@@ -321,6 +372,46 @@ body {
 
 /* FOOTER */
 
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 30px;
+    background-color: var(--background-color1);
+    color: var(--text-color2);
+}
 
+.left-footer p {
+    margin-bottom: 5px;
+}
+
+.left-footer ul {
+    list-style-type: none;
+}
+
+.right-footer {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 5px;
+}
+
+.right-footer-links ul {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    list-style-type: none;
+}
+
+.right-footer-links a {
+    text-decoration: none;
+    transition: 0.2s ease-in-out;
+}
+
+.right-footer-links a:hover {
+    color: #b0b4b9;
+}
 
 /* End of footer */
